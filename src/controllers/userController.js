@@ -1,4 +1,4 @@
-//controller de l'user avec hashage bcrypt
+//controller de l'user avec hashage bcrypt en terminal
 import bcrypt from "bcrypt";
 import { UserRepository } from "../repository/UserRepository.js";
 

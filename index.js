@@ -28,7 +28,7 @@ app.use(loggerMiddleware);
 
 // Routes
 app.use("/api/todos", todosRouteur);
-app.use("/api/users", userRouter); //route our register l'user
+app.use("/api/users", userRouter); //route pour register l'user
 
 app.listen(PORT, () => {
   console.log(`Serveur lancé sur http://localhost:${PORT}`);

@@ -1,4 +1,4 @@
-//route pour le register de l'user
+//route pour le register l'user
 import express from "express";
 import { registerUser } from "../controllers/userController.js";
 

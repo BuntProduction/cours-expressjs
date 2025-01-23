@@ -1,4 +1,4 @@
-//model de l'user avec l'email, le password et l'avatar
+//model de l'user avec l'email, le password et l'avatar (type string ?)
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
