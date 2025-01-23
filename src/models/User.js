@@ -1,3 +1,4 @@
+//model de l'user avec l'email, le password et l'avatar
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
